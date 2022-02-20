@@ -1,0 +1,6 @@
+2022-02-20 11:27:55,083 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-20 11:29:06,821 [6] ERROR App  
+ Error al guardar pedido 
+ 

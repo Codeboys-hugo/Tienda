@@ -1,0 +1,66 @@
+﻿
+@using Tienda.Views.Shared
+@model Tienda.Models.Pedidos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>Pedidos</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Usuario.Username)
+        </dd>
+    </dl>
+    @foreach (var producto in ViewBag.Productos)
+    {
+
+        <div class="form-row">
+                <label class="control-label">@producto.Producto.Nombre</label>
+            </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label class="control-label">Precio</label>
+                <input readonly class="form-control" value="@producto.Precio" />
+            </div>
+
+            <div class="form-group col-md-4">
+                <label class="control-label">Cantidad</label>
+                <input readonly type="number"  step="1" class="form-control cantidad" value="@producto.Cantidad" />
+            </div>
+            <div class="form-group col-md-4">
+                <label class="control-label">Total</label>
+                @{decimal total = producto.Cantidad * producto.Precio;
+                }
+                <input readonly type="number" class="form-control total" value="@total" />
+            </div>
+        </div>
+    }
+    <div class="form-row">
+        <div class="form-group col-md-4">
+
+        </div>
+        <div class="form-group col-md-4">
+
+        </div>
+
+        <div class="form-group col-md-4">
+            <label class="control-label">Total</label>
+            <input readonly id="TotalTotal" class="form-control" value="@Model.Total" />
+        </div>
+    </div>
+</div>
+<div>    
+    <a asp-action="Index">@BotonesResource.Regresar</a>
+</div>

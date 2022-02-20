@@ -1,0 +1,192 @@
+2022-02-19 16:38:10,899 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 16:38:39,575 [20] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 16:40:12,753 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 16:55:44,143 [8] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 16:55:47,396 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 16:55:59,546 [13] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 16:56:06,448 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 16:56:14,295 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 16:57:51,605 [12] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 16:57:52,626 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 16:57:57,387 [8] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:03:19,939 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:03:23,721 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:03:28,043 [17] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:04:07,926 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:04:10,397 [4] INFO  App  
+ UsuariosController edit 
+ 
+2022-02-19 17:04:16,537 [5] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:04:20,880 [5] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:05:37,737 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:05:40,124 [18] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:05:44,574 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:06:31,490 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:06:32,817 [8] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:06:38,721 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:06:56,960 [8] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:06:59,510 [8] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:07:38,729 [8] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:07:43,006 [8] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:09:28,127 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:09:30,712 [9] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:09:35,308 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:10:09,052 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:10:10,912 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:10:16,464 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:11:43,718 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:11:46,727 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:11:55,720 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:11:59,937 [9] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:15:32,532 [15] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:15:34,048 [16] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:15:39,280 [16] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:19:54,565 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:19:56,530 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:20:00,984 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:20:06,516 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:22:54,716 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:22:57,358 [4] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:23:05,672 [14] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:23:45,014 [5] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 17:26:07,694 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 17:26:09,399 [8] INFO  App  
+ UsuariosController create 
+ 
+2022-02-19 17:26:17,716 [4] INFO  App  
+ UsuariosController Create con información 
+ 
+2022-02-19 19:07:20,136 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 19:07:24,255 [4] INFO  App  
+ UsuariosController delete con información 
+ 
+2022-02-19 19:07:26,420 [4] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 19:07:28,254 [4] INFO  App  
+ UsuariosController delete con información 
+ 
+2022-02-19 19:07:29,967 [4] INFO  App  
+ UsuariosController delete confirmed 
+ 
+2022-02-19 19:08:09,704 [8] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 19:08:12,616 [8] INFO  App  
+ UsuariosController delete con información 
+ 
+2022-02-19 19:08:13,641 [4] INFO  App  
+ UsuariosController delete confirmed 
+ 
+2022-02-19 19:08:13,653 [9] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 22:17:57,403 [15] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 22:20:54,370 [8] INFO  App  
+ UsuariosController index 
+ 
+2022-02-19 22:21:57,948 [4] INFO  App  
+ UsuariosController index 
+ 

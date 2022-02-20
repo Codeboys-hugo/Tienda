@@ -1,0 +1,72 @@
+﻿@model Tienda.Models.Pedidos
+@using Tienda.Views.Shared
+<script src="~/js/Pedidos.js"></script>
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h4>Pedidos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <select asp-for="Username" class="form-control" asp-items="ViewBag.Username"></select>
+            </div>
+            @foreach (var producto in ViewBag.Productos)
+            {
+
+                <div class="form-row">
+                    <label class="control-label">@producto.Nombre</label>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Precio</label>
+                        <input readonly id="@producto.Id-Precio" name="@producto.Id-Precio" class="form-control" value="@producto.Precio" />
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Cantidad</label>
+                        <input id="@producto.Id-Cantidad" name="@producto.Id-Cantidad" class="form-control cantidad" onchange="CambioCantidad(@producto.Id)" type="number" step="1" min="0" max="999" save="" oninput="validity.valid ? this.save = value : value = this.save;" value="0" />
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Total</label>
+                        <input readonly id="@producto.Id-Total" class="form-control total" value="0" />
+                    </div>
+                </div>
+            }
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                  
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label class="control-label">Cantidad</label>
+                    <input readonly  id="CantidadTotal" class="form-control" type="number" value="0" />
+                </div>
+                <div class="form-group col-md-4">
+                    <label class="control-label">Total</label>
+                    <input readonly  id="TotalTotal"  class="form-control" value="0" />
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">@BotonesResource.Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
