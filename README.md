@@ -4,7 +4,7 @@
 
 El proyecto contiene una base de datos local hecha con sql express con Code First, al iniciar el proyecto la base de datos se crea automaticamente.
 
-### Pregutas 
+### Preguntas 
 
 1.- ¿Qué tipo de proyectos crearías en la aplicación WEB y cómo sería su estructura?
 
